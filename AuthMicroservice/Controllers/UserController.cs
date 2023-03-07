@@ -13,9 +13,9 @@ namespace AuthMicroservice.Controllers
     {
         private readonly IUserService _userService;
         private readonly IMapper _mapper;
-        private readonly SignInManager<ApplicationUser> _signInManager;
+        private readonly SignInManager<User> _signInManager;
 
-        public UserController(IUserService userService, IMapper mapper, SignInManager<ApplicationUser> signInManager)
+        public UserController(IUserService userService, IMapper mapper, SignInManager<User> signInManager)
         {
             _userService = userService;
             _mapper = mapper;
@@ -30,7 +30,11 @@ namespace AuthMicroservice.Controllers
             // Return a 201 Created response with the location of the newly created user
             return CreatedAtAction(nameof(GetUserAsync), new { id = user.Id }, user);
         }
-
+        [HttpGet("login")] ///////Тестовый рут ууууудааааалллииитььь!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        public ActionResult TestGet() 
+        {
+            return Ok("fdgdfgdfg"); 
+        }
         [HttpPost("login")]
         public async Task<ActionResult> LoginAsync(LoginDto loginDto)
         {

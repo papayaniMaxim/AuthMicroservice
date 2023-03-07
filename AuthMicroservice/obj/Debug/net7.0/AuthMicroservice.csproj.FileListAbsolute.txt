@@ -27,3 +27,10 @@
 /Users/admin/Projects/AuthMicroservice/AuthMicroservice/bin/Debug/net7.0/AutoMapper.dll
 /Users/admin/Projects/AuthMicroservice/AuthMicroservice/bin/Debug/net7.0/System.Security.Permissions.dll
 /Users/admin/Projects/AuthMicroservice/AuthMicroservice/obj/Debug/net7.0/AuthMicroservice.csproj.CopyComplete
+/Users/admin/Projects/AuthMicroservice/AuthMicroservice/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+/Users/admin/Projects/AuthMicroservice/AuthMicroservice/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/admin/Projects/AuthMicroservice/AuthMicroservice/bin/Debug/net7.0/Microsoft.OpenApi.dll
+/Users/admin/Projects/AuthMicroservice/AuthMicroservice/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/admin/Projects/AuthMicroservice/AuthMicroservice/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/admin/Projects/AuthMicroservice/AuthMicroservice/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/admin/Projects/AuthMicroservice/AuthMicroservice/obj/Debug/net7.0/AuthMicroservice.MvcApplicationPartsAssemblyInfo.cs
